@@ -12,6 +12,18 @@ A static portfolio page built with HTML and Tailwind CSS. It introduces me and l
 * Project cards linking to my GitHub repositories
 * No build step — Tailwind loads from a CDN
 
+## 🔄 Workflow
+
+How a visitor moves through the site.
+
+```mermaid
+flowchart TD
+    V(["Visitor opens index.html"]) --> N["Navigation bar and hero section"]
+    N --> PJ["Projects section with project cards"]
+    PJ --> CL["Visitor clicks a project card"]
+    CL --> GH(["GitHub repository opens"])
+```
+
 ## 🛠️ Tech Stack
 
 * Language: HTML, CSS
